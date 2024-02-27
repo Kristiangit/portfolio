@@ -1,12 +1,17 @@
 
 
 export default function Post() {
+    var colors = ["indigo-500", `fuchsia-600`, "orange-600"];
+
+    console.log(`from-${colors[0]} via-${colors[1]} via-90% to-${colors[2]}`)
+    // console.log(`this is ${colors[0]} `)
+
     return (
-      <div className="flex min-w-full flex-col items-center ">
-        <div className="w-screen h-[90vh] bg-gradient-to-b from-sky-500 to-fuchsia-600"> 
+      /* <div className="flex flex-col items-center min-w-screen "> */
+      <div className="w-screen h-screen">
+        <div className={`h-screen bg-gradient-to-b from-${colors[0]} via-${colors[1]} via-90% to-${colors[2]}`}>
+
           <h1 className="text-3xl font-bold" >KRISTIAN</h1>
-        </div>
-        <div className="w-screen h-[10vh] bg-gradient-to-b from-fuchsia-600 to-orange-600"> 
         </div>
 
       </div>

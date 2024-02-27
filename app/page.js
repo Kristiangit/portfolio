@@ -4,7 +4,7 @@ import Post from "../src/components/Post"
 
 export default function Home() {
     return (
-      <div className="flex h-screen min-w-screen flex-col items-center ">
+      <div className="h-screen min-w-screen ">
 
         <Post></Post>
         {/* <div className="w-full h-[90vh] bg-gradient-to-b from-sky-500 to-fuchsia-600"> 
