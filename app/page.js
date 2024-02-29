@@ -6,12 +6,12 @@ export default function Home() {
     return (
       <div className="h-screen min-w-screen ">
 
-        <Post></Post>
-        {/* <div className="w-full h-[90vh] bg-gradient-to-b from-sky-500 to-fuchsia-600"> 
-          <h1 className="text-3xl font-bold" >KRISTIAN</h1>
+        <Post title="Kristian Numme" text="Jeg er dritkul" colors={["gray-300", `not`, "purple-500"]} />
+        <Post title="BAC" text="BakkaCoin" colors={["purple-500", `fuchsia-600`, "orange-600"]} />
+        
+        <div class="w-full h-screen bg-gradient-to-b from-purple-500 via-fuchsia-600 via-90% to-lime-600">
         </div>
-        <div className="w-full h-[10vh] bg-gradient-to-b from-fuchsia-600 to-orange-600"> 
-        </div> */}
+
 
       </div>
   

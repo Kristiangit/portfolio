@@ -1,17 +1,18 @@
+import "../../app/globals.css"
 
-
-export default function Post() {
-    var colors = ["indigo-500", `fuchsia-600`, "orange-600"];
-
-    console.log(`from-${colors[0]} via-${colors[1]} via-90% to-${colors[2]}`)
-    // console.log(`this is ${colors[0]} `)
+export default function Post({title, text, colors}) {
 
     return (
-      /* <div className="flex flex-col items-center min-w-screen "> */
-      <div className="w-screen h-screen">
-        <div className={`h-screen bg-gradient-to-b from-${colors[0]} via-${colors[1]} via-90% to-${colors[2]}`}>
+      <div className="w-screen h-screen ">
+        {/* <div className={`w-full h-screen flex flex-col items-center justify-around    bg-gradient-to-b from-${colors[0]} via-${colors[1]} via-90% to-${colors[2]}`}> */}
+        <div class={`w-full h-screen flex flex-row items-center justify-center    bg-gradient-to-b from-${colors[0]} via-${colors[1]} via-90% to-${colors[2]}`}>
+          <div class="w-1/2 flex flex-col items-center justify-around">
+            <h1 class="text-4xl font-bold" >{title}</h1>
 
-          <h1 className="text-3xl font-bold" >KRISTIAN</h1>
+            <p>{text}</p>
+          </div>
+          <div class="w-1/3 h-1/3 bg-orange-600"></div>
+
         </div>
 
       </div>
