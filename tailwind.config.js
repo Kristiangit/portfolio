@@ -10,6 +10,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+      manrope: ["Manrope", "sans-serif"],
+      dmsans: ["DM Sans", "sans-serif"],
+    }
   },
   plugins: [],
 };
