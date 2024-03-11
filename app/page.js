@@ -19,7 +19,7 @@ export default function Home() {
         {/* <div className="h-1/2"></div>
         <div className="h-1/2 bg-gradient-to-b from-orange-400 to-black"></div> */}
         
-        {/* <div class="w-full h-screen bg-gradient-to-b from-purple-400 via-fuchsia-300 via-90% to-amber-300 from-teal-200 to-purple-400 from-amber-300 via-orange-400 to-slate-800">
+        {/* <div class="w-full h-screen bg-gradient-to-b from-purple-400 via-fuchsia-300 via-90% to-amber-300 from-teal-200 to-purple-400 from-amber-300 via-orange-400 to-orange-400">
         </div> */}
       </div>
   
